@@ -1,0 +1,34 @@
+body{
+    background-color: #737373;
+    margin: 0px;
+}
+
+#main-grid{
+    display:grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    padding: 0px;
+}
+
+#hero-image{
+    width: 100%;
+}
+
+#section1{
+    background-color: #737373;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    padding: 25px 25px;
+}
+
+.circle_image{
+    border-radius: 1000px;
+    background-color: #454443;
+    width: 80%;
+    padding: 10%;
+}
