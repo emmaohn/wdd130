@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100&display=swap');
+
 h4{
     color: black;
+    font-family: lato, Arial;
+    font-size: 1.5em;
 }
 
 #content{
@@ -10,40 +14,67 @@ h4{
 
 body{
     background-color: #fcfbfb; 
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 
 header{
     background-color: rgba(71, 168, 189, .7);
+    font-family: lato, Arial;
+    font-size: 1.5em;
 }
 
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #47A8BD; 
     color: #FFE359;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .home-title{
     color: black;
+    font-family: lato, Arial;
+    font-size: 3em;
+    margin-top: 10px;
 }
 
 #hero-img{
     width:100%;
 }
-
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1{
     text-align: center;
+    font-family: lato, Arial;
+}
+#hero-msg h4{
+    text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .button-box{
     text-align: center;
+    font-family: lato, Arial;
 }
 
 main section{
     text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+main section img{
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin: 50px 50px;
 }
 
 #background {
@@ -51,46 +82,82 @@ main section{
     background-color: #FF9A47;
 }
 
+.rivers-card, .camping-card, .rapids-card{
+    margin-top: 200px;
+}
+.card-img{
+    border: 10px solid #1E3888;
+}
+
 .msg{
-    background-color: #fcfbfb; 
+    background-color: #FFE359; 
+    padding: 35px;
 }
 .msg h2{
     color: black;
+    font-family: lato, Arial;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 .msg p{
     color: black;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 
 .book, .join{
     background-color: #47A8BD; 
     color: black;
     text-decoration: none;
+    font-family: lato, Arial;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #47A8BD;
     color: #FFE359;
+    font-family: lato, Arial;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
 .logo{
     width:80px;
 }
 .icon{
     width:80px;
+    padding-top: 10px;
 }
 
 footer{
-    background-color: #fcfbfb;
+    background-color: rgba(71, 168, 189, .7);
+    width: 100%;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3{
     color: black;
+    font-family: lato, Arial;
+    font-size: 18px;
+}
+footer h3 a:hover{
+    text-decoration: underline;
+    font-family: lato, Arial;
 }
 footer a{
     color: black;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
 }
 footer a:hover{
     color: black;
+    font-family: Roboto, Helvetica, sans-serif;
 }
-footer h3 a:hover{
-    text-decoration: underline;
+footer .social img{
+    padding-top: 15px;
 }
