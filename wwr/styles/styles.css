@@ -249,7 +249,7 @@ footer .social img{
     }
     #hero-msg {
         margin-top: -300px;
-        margin-bottom: 125px;
+        margin-bottom: 125px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     }
     #hero-msg h4 {
         margin-top: 0;
@@ -273,4 +273,66 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+    #content2 main {
+        display: block;
+    }
+    #content2 main p {
+        text-align: center;
+        margin-left: 100px;
+    }
+    #salmon-card, #desolation-card, #grand-card {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    #content2 main {
+        display: block;
+    }
+    #content2 main p {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #salmon-card, #desolation-card, #grand-card {
+        margin: 0 auto;
+    }
+}
+
+/* page 2 */
+
+#page2-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.river-img {
+    border: 10px solid #47A8BD;
+    box-shadow: 5px 5px 10px #47A8BD;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: 50px;
+}
+#salmon-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#desolation-card{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#grand-card{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#salmon-p, #desolation-p, #grand-p {
+    /* margin: 25px; */
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+#salmon-card, #desolation-card, #grand-card {
+    padding: 20px;
+    /* margin-left: 50px; */
 }
