@@ -1,0 +1,78 @@
+main {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+}
+.numbers, #username {
+    color: rgb(67, 67, 67);
+    font-size: 12px;
+    font-weight: bold;
+}
+#post {
+    grid-column: 2/3;
+}
+img {
+    width: 100%;
+}
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#above {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+#below {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    gap: 5px;   
+}
+
+#profile{
+    max-width: 50px;
+    border-radius: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 5px;
+}
+#username {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#time {
+    font-size: .7em;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-self: right;
+    margin-right: -5px;
+
+}
+#menu {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+
+#bookmark {
+    grid-column: 1/2;
+}
+#share {
+    grid-column: 2/3;
+}
+#msg {
+    grid-column: 3/4;
+}
+#msgs {
+    grid-column: 4/5;
+}
+#likes {
+    grid-column: 9/10;
+}
+#like {
+    grid-column: 10/11;
+}
