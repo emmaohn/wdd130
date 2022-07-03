@@ -191,3 +191,12 @@ nav a:hover {
 #logo-main {
   width: 100%;
 }
+#flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  #flex-div img {
+    max-width: 100px;
+    margin: 10px;
+  }

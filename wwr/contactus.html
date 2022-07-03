@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Form</title>
+    <title>Contact Us</title>
     <style>
-        main {
-            background-color: white;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            padding-top: 25px;
-            padding-bottom: 25px;
+        /* #bod {
+            background-color: rgba(71, 168, 189, .7);
+        }
+        footer, header {
+            background-color: none;
+        } */
+        #form-center {
+            display: flex;
+            justify-content: center;
+            /* align-content: center; */
+            /* margin-top: 50px; */
+            /* margin-bottom: 27%; */
         }
         form {
             background-color: white;
@@ -66,22 +72,25 @@
         .moveDown {
             margin-top: 3em;
         }
+        /* #content3 {
+            background-color: #47A8BD;
+        } */
     </style>
 </head>
-<body>
-    <div id="content2">
+<body id="bod">
+    <div id="content3">
     <header>
         <a href="index.html" id="logo_link">
-            <img class="logo" src="images/logo.jpg" alt="oar crossing logo">
+            <img class="logo" src="images/logo.JPG" alt="oar crossing logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="sub01.html">Page 2</a>
+            <a href="sub01.html">Rivers</a>
             <a href="site-planning-rafting.html">Site Plan</a>
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <main id="page2-grid">
+    <main id="form-center">
         <form action="/my-handling-form-page">
             <ul>
                 <li>
@@ -113,7 +122,7 @@
             })
         </script>
     </main>
-    <footer>
+    <footer id="footer">
         <h3>Oar Crossing &copy; 2022 — Jojo Johnson</h3>
         <h3><a href="site-planning-rafting.html">Site Plan</a></h3>
         <h3><a href="contactus.html">Contact Us</a></h3>
