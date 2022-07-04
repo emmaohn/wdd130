@@ -29,6 +29,7 @@ p {
 .white {
     background-color: #fffdf4;
     border-radius: 15px;
+    padding: 10px;
 }
 
 #main-logo {
@@ -196,6 +197,12 @@ nav a:hover{
         grid-row: 1/5;
         z-index: 1;
     }
+.above-link {
+    text-decoration: none;
+}
+.above-link:hover {
+    text-decoration: underline;
+}
 /* .div1:hover, .div2:hover {
 
 } */
@@ -257,6 +264,13 @@ nav a:hover{
 .mh-img:hover + .mh {
     display: block;
 }
+.mh-link {
+    font-size: .7em;
+    text-decoration: underline;
+}
+/* .mh:hover + .mh-link {
+    text-decoration: underline;
+} */
 
 #info-grid {
     display: grid;
