@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Jojo's Trading co.</title>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
 <body>
-    <header>
+    <header class=".myheader">
         <a href="index.html"><img id="corner-logo" src="images/jj.png" alt="jj logo"></a>
         <nav>
+            <div id="myTopnav" class="topnav">
+                <a href="javascript:void(0);" class="header-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             <a href="index.html">Home</a>
             <a href="blogspot.html">Blog Spot</a>
             <a href="blog1.html">First Blog</a>
             <a href="#">Extra</a>
+
+            </div>
         </nav>
+        
     </header>
     <main> 
         <img id="main-logo" src="images/jtc.png" alt="logo">
