@@ -238,6 +238,18 @@ footer .social img{
     margin-top: 20px
 }
 
+@media screen and (min-width: 900px) {
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        /* background-color: red; */
+        /* color: white; */
+        text-align: center;
+        }
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
